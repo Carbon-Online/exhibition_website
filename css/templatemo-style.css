@@ -40,6 +40,7 @@ a:focus {
     background-repeat: no-repeat;
 	height: 100vh;
 	vertical-align: middle;
+	overflow-y: scroll;
 }
 
 button:focus { outline: none; }
