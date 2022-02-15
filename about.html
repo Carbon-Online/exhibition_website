@@ -35,14 +35,14 @@ https://templatemo.com/tm-504-page-one
           <!-- back button -->
           <a href="index.html" class="tm-btn home-btn">Home</a>
             <!-- Home -->
-            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/bg-01.jpg">
+            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/co2nline_1.png">
               <div class="tm-page-content-width">
                 <div class="tm-textbox tm-white-bg"> 
                   <h2>About Us</h2><br>
                   <p>Youran Song, Product Design at Kunsthochschule Weißensee</p>
                   <p>Julia Mellert, Computer Science(MSc) at FU Berlin</p>
                   <p>Simon Sasse, Computer Science(MSc) at FU Berlin</p>
-                  <img src="img/raspberry-setup.jpg" alt="raspberryPi Servo Motor setup.">
+                  <img src="img/co2nline_2.png" alt="raspberryPi Servo Motor setup.">
                   </div>
                   </div>
 
@@ -147,5 +147,16 @@ https://templatemo.com/tm-504-page-one
                 $('.tm-current-year').text(new Date().getFullYear());          
             });
     </script>   
+    <!-- Reload page every 10 seconds: to cause more datatraffic -->
+    <script>
+      window.setInterval('refresh()', 60000); 	
+      // Call a function every 10000 milliseconds 
+      // (OR 10 seconds).
+  
+      // Refresh or reload page.
+      function refresh() {
+          window .location.reload();
+      }
+  </script>
 </body>
 </html>

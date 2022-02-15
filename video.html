@@ -35,11 +35,11 @@ https://templatemo.com/tm-504-page-one
           <!-- back button -->
           <a href="index.html" class="tm-btn home-btn">Home</a>
             <!-- Home -->
-            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/bg-01.jpg">
+            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/co2nline_title.png">
                 <div class="tm-page-content-width">
                     <div class="tm-videobox tm-white-bg">
                       <h2 class="tm-green-text tm-section-title">CO<sub>2</sub>NLINE | Product Video</h2>
-                      <video type="video/mp4" src="img/product_video.mp4" controls loop autoplay>
+                      <video type="video/mp4" src="img/co2nline high res.mp4" controls loop autoplay>
                     </div>
                 </div>
             </section>
@@ -142,6 +142,16 @@ https://templatemo.com/tm-504-page-one
                 // Update the current year in copyright
                 $('.tm-current-year').text(new Date().getFullYear());          
             });
-    </script>   
+    </script>
+    <!-- Reload page every 10 seconds: to cause more datatraffic -->
+    <script>
+      window.setInterval('refresh()', 300000); 	
+      
+  
+      // Refresh or reload page.
+      function refresh() {
+          window .location.reload();
+      }
+  </script>
 </body>
 </html>

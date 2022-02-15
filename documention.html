@@ -35,12 +35,12 @@ https://templatemo.com/tm-504-page-one
           <!-- back button -->
           <a href="index.html" class="tm-btn home-btn">Home</a>
             <!-- Home -->
-            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/bg-01.jpg">
+            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/co2nline_2.png">
               <div class="tm-page-content-width">
                 <div class="tm-textbox tm-white-bg">
                   <h1>CO<sub>2</sub>NLINE | About the project</h1>
                   <h2></h2>
-                  <p>This application belongs to the CO2NLINE project which was created and implemented as part of the coding IxD lecture of the FU Berlin and the KH Weissensee. The topic of was Digital Souveranity. CO2NLINE is an artefact that visualizes one's digital carbon footprint.</p>
+                  <p>This application belongs to the CO2NLINE project which was created and implemented as part of the <i>coding IxD</i> lecture of the <i>FU Berlin</i> and the <i>KH Weissensee</i>. The topic of this course is <b>Digital Souveranity</b>. CO2NLINE is an artefact that visualizes one's digital carbon footprint.</p>
                   </div>
                   </div>
 
@@ -145,5 +145,16 @@ https://templatemo.com/tm-504-page-one
                 $('.tm-current-year').text(new Date().getFullYear());          
             });
     </script>   
+    <!-- Reload page every 10 seconds: to cause more datatraffic -->
+    <script>
+      window.setInterval('refresh()', 60000); 	
+      // Call a function every 10000 milliseconds 
+      // (OR 10 seconds).
+  
+      // Refresh or reload page.
+      function refresh() {
+          window .location.reload();
+      }
+  </script>
 </body>
 </html>

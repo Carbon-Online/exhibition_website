@@ -33,11 +33,11 @@ https://templatemo.com/tm-504-page-one
         <div class="container-fluid" id="main">
 
             <!-- Home -->
-            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/bg-01.jpg">
+            <section class="parallax-window tm-section tm-section-home" id="home" data-parallax="scroll" data-image-src="img/co2nline_title.png">
                 <div class="tm-page-content-width">                  
                     <div class="tm-textbox tm-white-bg">
                         <h2 class="tm-green-text tm-section-title">CO<sub>2</sub>NLINE</h2>
-                        <p>CO<sub>2</sub>NLINE’s carbon cube decreases in height according to your viewing time on this website.</p>
+                        <p>CO<sub>2</sub>NLINE’s <i>carbon cube</i> decreases in height according to your browsing time on this website.</p>
                         <a href="video.html" class="tm-btn">Product video</a>
                         <a href="documention.html" class="tm-btn">About the Project</a>
                         <a href="about.html" class="tm-btn">About Us</a>
@@ -144,5 +144,16 @@ https://templatemo.com/tm-504-page-one
                 $('.tm-current-year').text(new Date().getFullYear());          
             });
     </script>   
+    <!-- Reload page every 10 seconds: to cause more datatraffic -->
+    <script>
+      window.setInterval('refresh()', 60000); 	
+      // Call a function every 10000 milliseconds 
+      // (OR 10 seconds).
+  
+      // Refresh or reload page.
+      function refresh() {
+          window .location.reload();
+      }
+  </script>
 </body>
 </html>
